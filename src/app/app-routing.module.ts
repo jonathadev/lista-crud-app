@@ -5,6 +5,8 @@ import { ProdutosComponent } from './produtos/produtos.component';
 import { ProdutoDetalheComponent } from './produto-detalhe/produto-detalhe.component';
 import { ProdutoNovoComponent } from './produto-novo/produto-novo.component';
 import { ProdutoEditarComponent } from './produto-editar/produto-editar.component';
+import { LoginComponent } from './login/login.component';
+import { AuthGuard } from 'src/service/auth-guard.service';
 
 const routes: Routes = [  {
   path: 'produtos',
@@ -25,6 +27,13 @@ const routes: Routes = [  {
   path: 'produto-editar/:id',
   component: ProdutoEditarComponent,
   data: { title: 'Editar o Produto' }
+},
+{
+  path: 'login',
+  component: LoginComponent,
+  data: {
+    title: 'Login'
+  }
 },
 { path: '',
   redirectTo: '/produtos',
