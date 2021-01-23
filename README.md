@@ -7,6 +7,17 @@ https://medium.com/@andrewchanm/criando-um-app-angular-7-e-consumindo-uma-api-re
 https://medium.com/@andrewchanm/criando-um-app-angular-7-e-consumindo-uma-api-rest-2-de-3-5747972ef56e
 https://medium.com/@andrewchanm/criando-um-app-angular-7-e-consumindo-uma-api-rest-3-de-3-7d3b22aa09a6
 
+1 Para rodar o projeto sem banco de dados, segue o seguinte tutorial:
+ para fazer download no projeto
+git clone https://github.com/jonathadev/lista-crud-app
+
+2 para fazer download das dependencias
+npm i
+
+3 para rodar o projeto feito em Angular
+ng s 
+
+
 api rest com mongo db para testar projeto
 https://github.com/AndrewMak/apiexpressjs
 api em nodejs com express e mongodb para usar no exemplo do artigo na medium lista-crud-app no arquivo keys.js é necessário colocar a conexão do banco de dados MongoDB
@@ -18,8 +29,6 @@ api em nodejs com express e mongodb para usar no exemplo do artigo na medium lis
 npm install
 
 node index.js
-
-
 
 
 repositorio do projeto original do tutorial
